@@ -1,0 +1,2 @@
+INDEX VERSION 1.126+C:\Documents and Settings\u1003098\mak-in-droid\.metadata\.plugins\org.eclipse.jdt.core
+2975936264.index

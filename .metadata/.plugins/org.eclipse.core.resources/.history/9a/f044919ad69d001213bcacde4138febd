@@ -1,0 +1,302 @@
+package your.pacage.namespace;
+
+
+import android.app.Activity;
+import android.content.SharedPreferences;
+import android.os.Bundle;
+import android.text.Editable;
+import android.text.TextWatcher;
+import android.view.KeyEvent;
+import android.view.MotionEvent;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.view.View.OnKeyListener;
+import android.view.View.OnTouchListener;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ImageButton;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.LinearLayout.LayoutParams;
+import android.widget.Toast;
+
+import java.io.*;
+import java.net.InetAddress;
+
+import your.pacage.namespace.MyStreamSocket;
+
+
+public class Mak1Activity extends Activity implements TextWatcher{
+    /** Called when the activity is first created. */
+	String hostName = "192.168.43.2";
+    String before="";
+    int len=0;
+    int curlen=0;
+	  MyStreamSocket socket;
+      String portNum = "7";
+      	String result="";
+	    int windowwidth;
+	    int windowheight;
+	    int x_cord=0,y_cord=0;
+	    int x_cord_temp=0,y_cord_temp=0;
+	  //  private LayoutParams layoutParams ;
+	    ImageButton bleft,brite,btext,bshut;
+	    EditText e;
+	    Button b1,b2;
+	    String clickvalue="";
+    @Override
+    public void onCreate(Bundle savedInstanceState) 
+    {
+    	
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.home);
+       
+        bleft=(ImageButton) findViewById(R.id.left);
+        brite=(ImageButton)findViewById(R.id.right);
+        b1=(Button)findViewById(R.id.button1);
+        b2=(Button) findViewById(R.id.button2);
+        e=(EditText) findViewById(R.id.editText1);
+        
+     
+        e.addTextChangedListener(this);
+        btext=(ImageButton) findViewById(R.id.imageButton3);
+        bshut=(ImageButton)findViewById(R.id.ImageButton01);
+    	try
+    	{
+    		socket = new MyStreamSocket(InetAddress.getByName(hostName), Integer.parseInt(portNum));
+    	}
+    	catch(Exception e)
+    	{
+    		System.out.println("socket creation"+e);
+    	}
+        bleft.setOnClickListener(new OnClickListener() 
+        {
+			
+			public void onClick(View v) 
+			{
+				try
+		    	{
+					clickvalue="leftb*click";
+					socket.sendMessage(clickvalue);
+		    	}
+			
+				catch(Exception e)
+				{
+					System.out.println("left button click"+e);
+				}
+		    }
+		});
+        brite.setOnClickListener(new OnClickListener() 
+        {
+			
+			public void onClick(View v) 
+			{
+				try
+		    	{
+					clickvalue="rightb*click";
+					socket.sendMessage(clickvalue);
+		    	}
+			
+				catch(Exception e)
+				{
+					System.out.println("right button click"+e);
+				}
+			}
+		});
+        bshut.setOnClickListener(new OnClickListener() 
+        {
+			
+			public void onClick(View v) 
+			{
+				try
+				{
+					socket.sendMessage("shutdown*click");
+				}
+				catch(Exception e)
+				{
+					System.out.println(e);
+				}
+			}
+				
+			});
+        b1.setOnClickListener(new OnClickListener()
+        {
+        	public void onClick(View v)
+        	{
+        		try
+        		{
+        			clickvalue="scrollup*click";
+        			socket.sendMessage(clickvalue);
+        		}
+        		catch(Exception e)
+        		{
+        			System.out.println("scroll up click"+e);
+        		}
+        		
+        	}
+        });
+        b2.setOnClickListener(new OnClickListener()
+        {
+        	public void onClick(View v)
+        	{
+        		try
+        		{
+        			clickvalue="scrolldown*click";
+        			socket.sendMessage(clickvalue);
+        		}
+        		catch(Exception e)
+        		{
+        			System.out.println("scroll  down click"+e);
+        		}
+        		
+        	}
+        });
+        btext.setOnClickListener(new OnClickListener() {
+			
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				try
+				{
+				String txt=e.getText().toString();
+				socket.sendMessage(txt+"*"+"text");
+			    }
+				catch(Exception e1)
+				{
+					System.out.println("Message txt"+e1);
+				}
+			}
+		});
+        
+        try
+        {      
+      //  boolean done = false;
+        //String echo;
+        windowwidth = getWindowManager().getDefaultDisplay().getWidth();
+        windowheight = getWindowManager().getDefaultDisplay().getHeight();
+        
+        LinearLayout obj_linearlayout=(LinearLayout)findViewById(R.id.sendco);
+        obj_linearlayout.setOnTouchListener(new View.OnTouchListener() 
+        {
+
+                        public boolean onTouch(View v, MotionEvent event) 
+                        {
+                          
+                            switch(event.getAction())
+                            {
+                            
+                            case MotionEvent.ACTION_MOVE:	 x_cord_temp=x_cord;
+                            								 y_cord_temp=y_cord;
+                            								 
+                                                            x_cord=(int)event.getRawX();
+                                                            y_cord=(int)event.getRawY();
+                                                            
+                                                           
+                                                            
+
+                                                            if(x_cord>windowwidth){x_cord=windowwidth;}
+                                                            if(y_cord>windowheight){y_cord=windowheight;}
+
+                                    	        						    try
+                                    	        						    {
+                                    	        						    	if(x_cord>x_cord_temp&&y_cord>y_cord_temp)
+                                    	        						    	{
+                                    	        						    		result="dr";
+                                    	        						    	}
+                                    	        						    	else if(x_cord>x_cord_temp&&y_cord<y_cord_temp)
+                                    	        						    	{
+                                    	        						    		result="ur";
+                                    	        						    	}
+                                    	        						    	else if(x_cord<x_cord_temp&&y_cord>y_cord_temp)
+                                    	        						    	{
+                                    	        						    		result="ld";
+                                    	        						    	}
+                                    	        						    	else if(x_cord<x_cord_temp&&y_cord<y_cord_temp)
+                                    	        						    	{
+                                    	        						    		result="lu";
+                                    	        						    	}
+                                    	        						    	else if(x_cord<x_cord_temp&&y_cord==y_cord_temp)
+                                    	        						    	{
+                                    	        						    		result="l";
+                                    	        						    	}
+                                    	        						    	else if(x_cord>x_cord_temp&&y_cord==y_cord_temp)
+                                    	        						    	{
+                                    	        						    		result="r";
+                                    	        						    	}
+                                    	        						    	else if(x_cord==x_cord_temp&&y_cord<y_cord_temp)
+                                    	        						    	{
+                                    	        						    		result="u";
+                                    	        						    	}
+                                    	        						    	else if(x_cord==x_cord_temp&&y_cord>y_cord_temp)
+                                    	        						    	{
+                                    	        						    		result="d";
+                                    	        						    	}
+                                    	        						    	else
+                                    	        						    	{
+                                    	        						    		
+                                    	        						    	}
+                                    	        						    	//socket.sendMessage(String.valueOf(x_cord)+"*"+String.valueOf(y_cord));
+                                    	        						    	socket.sendMessage(result+"*mouse");
+                                    	        						    }
+                                    	        						    catch(Exception e)
+                                    	        						    {
+                                    	        						    	System.out.println("send socket-->"+e);
+                                    	        						    }
+                                    	        		                           
+                                                       break;
+                            default:
+                                                       break;
+                            }
+                                return true;
+                        }
+                });
+        }
+        catch (Exception ex) 
+        {
+            System.out.println(ex);
+        } 
+   }
+	public void afterTextChanged(Editable s) {
+		// TODO Auto-generated method stub
+		
+	}
+	public void beforeTextChanged(CharSequence s, int start, int count,
+			int after) {
+	before=s.toString();
+		
+	len=before.length();
+	}
+	public void onTextChanged(CharSequence s, int start, int before, int count) {
+		//Toast.makeText(Mak1Activity.this,s, Toast.LENGTH_SHORT).show();
+		
+		try 
+		{
+			
+			String current=s.toString();
+			curlen=current.length();
+			if(curlen>=len)
+			{
+			String c_text=current.substring(len,len+1);
+			socket.sendMessage(c_text+"*keyboard");
+			
+			Toast.makeText(Mak1Activity.this,c_text, Toast.LENGTH_SHORT).show();
+		     }
+			else
+			{
+				//String c_text=current.substring(len,len+1);
+				socket.sendMessage(s+"*backspace");
+				
+			}
+		}
+		catch (IOException e) 
+		{
+			e.printStackTrace();
+		}
+		
+	} 
+    
+  
+}
+
+    
+
+    

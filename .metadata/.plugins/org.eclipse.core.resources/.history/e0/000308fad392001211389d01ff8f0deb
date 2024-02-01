@@ -1,0 +1,151 @@
+package your.pacage.namespace;
+
+
+import android.app.Activity;
+import android.content.SharedPreferences;
+import android.os.Bundle;
+import android.view.MotionEvent;
+import android.view.View;
+import android.widget.ImageView;
+import android.widget.LinearLayout.LayoutParams;
+import android.widget.Toast;
+
+import java.io.*;
+import java.net.InetAddress;
+
+
+public class Mak1Activity extends Activity {
+    /** Called when the activity is first created. */
+	String hostName = "10.0.2.2";
+    
+    
+    String portNum = "7";
+	
+	 int windowwidth;
+	    int windowheight;
+	    int x_cord=0,y_cord=0;
+	    private LayoutParams layoutParams ;
+	    
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.main);
+        try
+        {
+        final MyStreamSocket socket = new MyStreamSocket(InetAddress.getByName(hostName), Integer.parseInt(portNum));
+        boolean done = false;
+        String echo;
+        
+        
+        //connectToServer();
+        
+        windowwidth = getWindowManager().getDefaultDisplay().getWidth();
+        windowheight = getWindowManager().getDefaultDisplay().getHeight();
+        final ImageView balls = (ImageView)findViewById(R.id.ball);
+
+        balls.setOnTouchListener(new View.OnTouchListener() {
+
+                        public boolean onTouch(View v, MotionEvent event) {
+                            LayoutParams layoutParams = (LayoutParams) balls.getLayoutParams();
+                            switch(event.getAction())
+                            {
+                            case MotionEvent.ACTION_DOWN:   
+                                                            break;
+                            case MotionEvent.ACTION_MOVE:
+                                                            x_cord = (int)event.getRawX();
+                                                            y_cord = (int)event.getRawY();
+
+                                                            if(x_cord>windowwidth){x_cord=windowwidth;}
+                                                            if(y_cord>windowheight){y_cord=windowheight;}
+
+                                                            layoutParams.leftMargin = x_cord -25;
+                                                            layoutParams.topMargin = y_cord - 75;
+                                                            
+                                                            
+                                                            SharedPreferences pref;
+                                    	        			SharedPreferences sttings=getSharedPreferences("pref", MODE_PRIVATE);
+                                    	        	    	SharedPreferences.Editor editor=sttings.edit();
+                                    	        			editor.putString("xyvalues",String.valueOf(x_cord)+"*"+String.valueOf(y_cord));
+                                    	        			editor.commit();
+                                    	        			
+                                    	        			
+                                    	        			//============================================================================
+                                    	        			
+                                    	        			
+                                    	        			
+                                    	        			 
+                                    	        		           
+                                    	        		            
+                                    	        		          
+                                    	        		          
+                                    	        		      //      while( !done ) {
+
+                                    	        		             
+                                    	        		            boolean messageOK = false;
+
+                                    	        		              
+                                    	        					
+                                    	        							
+                                    	        			new Thread(new Runnable()
+                                    	        			{
+                                    	        				public void run()
+                                    	        				{    
+                                    	        					try
+                                    	        					{
+                                    	        						while(true)
+                                    	        						{
+                                    	        							SharedPreferences pref;
+                                    	        						    SharedPreferences sttings=getSharedPreferences("pref", MODE_PRIVATE);
+                                    	        						    String id = sttings.getString("xyvalues",null);
+                                    	        							socket.sendMessage(id);
+                                    	        		                }
+                                    	        					}
+                                    	        					catch(Exception e)
+                                    	        					{
+                                    	        						System.out.println("from thread"+e);
+                                    	        					}
+                                    	        			}
+                                    	        			}).start();
+                                    	        			
+                                    	        		                 
+                                    	        		               
+                                    	        		               
+                                    	        		           // } // end while
+                                    	        		       
+                            
+                            
+                            //==========================================================================================================
+                                    	        			
+                                    	        			
+                                    	        			
+                                    	        			
+                                    	        			
+                                    	        			
+                                                            balls.setLayoutParams(layoutParams);
+                                                           // Toast.makeText(Mak1Activity.this,String.valueOf(x_cord)+"*"+String.valueOf(y_cord), Toast.LENGTH_SHORT).show();
+                                                           // connectToServer();
+                                                            break;
+                            default:
+                                                            break;
+                            }
+                                return true;
+                        }
+                });
+        }
+        
+        catch (Exception ex) {
+            System.out.println(ex);
+        } 
+       
+
+            } 
+}
+    
+    
+  /*  public void connectToServer()
+    {
+
+       
+    
+        } */
+    

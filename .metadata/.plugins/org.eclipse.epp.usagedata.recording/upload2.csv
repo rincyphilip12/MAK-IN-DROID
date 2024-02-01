@@ -1,0 +1,251 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.jdt.debug,3.7.1.v20111006_r372,"org.eclipse.jdt.debug",1363944791248
+started,bundle,org.eclipse.jdt.debug.ui,3.6.1.v20111006_r372,"org.eclipse.jdt.debug.ui",1363944791248
+started,bundle,org.eclipse.jdt.junit,3.7.0.v20110928-1453,"org.eclipse.jdt.junit",1363944791248
+started,bundle,org.eclipse.jdt.launching,3.6.1.v20111006_r372,"org.eclipse.jdt.launching",1363944791248
+started,bundle,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui",1363944791248
+started,bundle,org.eclipse.jem,2.0.501.v201111030500,"org.eclipse.jem",1363944791248
+started,bundle,org.eclipse.jem.util,2.1.100.v201103021400,"org.eclipse.jem.util",1363944791248
+started,bundle,org.eclipse.jface,3.7.0.v20110928-1505,"org.eclipse.jface",1363944791248
+started,bundle,org.eclipse.jpt.common.core,1.0.2.v201111103010,"org.eclipse.jpt.common.core",1363944791248
+started,bundle,org.eclipse.jpt.jpa.core,3.0.2.v201201243020,"org.eclipse.jpt.jpa.core",1363944791264
+started,bundle,org.eclipse.jsch.core,1.1.300.I20110514-0800,"org.eclipse.jsch.core",1363944791264
+started,bundle,org.eclipse.jst.common.project.facet.core,1.4.200.v201103170302,"org.eclipse.jst.common.project.facet.core",1363944791264
+started,bundle,org.eclipse.jst.j2ee,1.1.503.v201202090300,"org.eclipse.jst.j2ee",1363944791264
+started,bundle,org.eclipse.jst.j2ee.core,1.2.102.v201202090300,"org.eclipse.jst.j2ee.core",1363944791264
+started,bundle,org.eclipse.jst.j2ee.navigator.ui,1.1.501.v201107261503,"org.eclipse.jst.j2ee.navigator.ui",1363944791264
+started,bundle,org.eclipse.jst.j2ee.ui,1.1.503.v201201190400,"org.eclipse.jst.j2ee.ui",1363944791264
+started,bundle,org.eclipse.jst.j2ee.webservice,1.1.400.v201004110600,"org.eclipse.jst.j2ee.webservice",1363944791264
+started,bundle,org.eclipse.jst.j2ee.webservice.ui,1.1.500.v201105122000,"org.eclipse.jst.j2ee.webservice.ui",1363944791264
+started,bundle,org.eclipse.jst.jee.ui,1.0.401.v201202011107,"org.eclipse.jst.jee.ui",1363944791264
+started,bundle,org.eclipse.jst.servlet.ui,1.1.502.v201202011054,"org.eclipse.jst.servlet.ui",1363944791264
+started,bundle,org.eclipse.jst.ws.jaxrs.core,1.0.301.v201108240656,"org.eclipse.jst.ws.jaxrs.core",1363944791264
+started,bundle,org.eclipse.jst.ws.jaxws.utils,1.0.100.v201201031437,"org.eclipse.jst.ws.jaxws.utils",1363944791264
+started,bundle,org.eclipse.ltk.core.refactoring,3.5.201.r372_v20111101-0700,"org.eclipse.ltk.core.refactoring",1363944791264
+started,bundle,org.eclipse.ltk.ui.refactoring,3.6.0.v20110928-1453,"org.eclipse.ltk.ui.refactoring",1363944791264
+started,bundle,org.eclipse.mylyn.bugzilla.core,3.6.5.v20120123-0100,"org.eclipse.mylyn.bugzilla.core",1363944791264
+started,bundle,org.eclipse.mylyn.bugzilla.ui,3.6.0.v20110608-1400,"org.eclipse.mylyn.bugzilla.ui",1363944791264
+started,bundle,org.eclipse.mylyn.commons.identity,0.8.0.v20110608-1400,"org.eclipse.mylyn.commons.identity",1363944791264
+started,bundle,org.eclipse.mylyn.commons.net,3.6.0.v20110608-1400,"org.eclipse.mylyn.commons.net",1363944791264
+started,bundle,org.eclipse.mylyn.commons.ui,3.6.1.v20110720-0100,"org.eclipse.mylyn.commons.ui",1363944791264
+started,bundle,org.eclipse.mylyn.context.core,3.6.1.v20110720-0100,"org.eclipse.mylyn.context.core",1363944791264
+started,bundle,org.eclipse.mylyn.context.ui,3.6.1.v20120112-0100,"org.eclipse.mylyn.context.ui",1363944791264
+started,bundle,org.eclipse.mylyn.monitor.ui,3.6.0.v20110608-1400,"org.eclipse.mylyn.monitor.ui",1363944791264
+started,bundle,org.eclipse.mylyn.tasks.ui,3.6.5.v20120215-0100,"org.eclipse.mylyn.tasks.ui",1363944791264
+started,bundle,org.eclipse.mylyn.team.ui,3.6.1.v20110825-0100,"org.eclipse.mylyn.team.ui",1363944791264
+started,bundle,org.eclipse.search,3.7.0.v20110928-1504,"org.eclipse.search",1363944791264
+started,bundle,org.eclipse.team.core,3.6.0.I20110525-0800,"org.eclipse.team.core",1363944791264
+started,bundle,org.eclipse.team.cvs.core,3.3.400.I20110510-0800,"org.eclipse.team.cvs.core",1363944791264
+started,bundle,org.eclipse.team.cvs.ui,3.3.401.v20120126-1227,"org.eclipse.team.cvs.ui",1363944791264
+started,bundle,org.eclipse.team.ui,3.6.101.R37x_v20111109-0800,"org.eclipse.team.ui",1363944791264
+started,bundle,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui",1363944791279
+started,bundle,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console",1363944791279
+started,bundle,org.eclipse.ui.editors,3.7.0.v20110928-1504,"org.eclipse.ui.editors",1363944791279
+started,bundle,org.eclipse.ui.forms,3.5.101.v20111011-1919,"org.eclipse.ui.forms",1363944791279
+started,bundle,org.eclipse.ui.ide,3.7.0.v20110928-1505,"org.eclipse.ui.ide",1363944791279
+started,bundle,org.eclipse.ui.navigator,3.5.101.v20120106-1355,"org.eclipse.ui.navigator",1363944791279
+started,bundle,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.resources",1363944791279
+started,bundle,org.eclipse.ui.net,1.2.100.v20111208-1155,"org.eclipse.ui.net",1363944791279
+started,bundle,org.eclipse.ui.views,3.6.0.v20110928-1505,"org.eclipse.ui.views",1363944791279
+started,bundle,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"org.eclipse.ui.workbench",1363944791279
+started,bundle,org.eclipse.ui.workbench.texteditor,3.7.0.v20110928-1504,"org.eclipse.ui.workbench.texteditor",1363944791279
+started,bundle,org.eclipse.update.configurator,3.3.100.v20100512,"org.eclipse.update.configurator",1363944791279
+started,bundle,org.eclipse.update.core,3.2.500.v20110330,"org.eclipse.update.core",1363944791279
+started,bundle,org.eclipse.update.scheduler,3.2.300.v20100512,"org.eclipse.update.scheduler",1363944791279
+started,bundle,org.eclipse.wst.common.core,1.2.0.v200908252030,"org.eclipse.wst.common.core",1363944791279
+started,bundle,org.eclipse.wst.common.emf,1.2.100.v201101101900,"org.eclipse.wst.common.emf",1363944791279
+started,bundle,org.eclipse.wst.common.emfworkbench.integration,1.2.101.v201107140600,"org.eclipse.wst.common.emfworkbench.integration",1363944791279
+started,bundle,org.eclipse.wst.common.frameworks,1.2.102.v201201190400,"org.eclipse.wst.common.frameworks",1363944791279
+started,bundle,org.eclipse.wst.common.frameworks.ui,1.2.100.v201105122000,"org.eclipse.wst.common.frameworks.ui",1363944791279
+started,bundle,org.eclipse.wst.common.modulecore,1.2.103.v201201190400,"org.eclipse.wst.common.modulecore",1363944791279
+started,bundle,org.eclipse.wst.common.project.facet.core,1.4.201.v201201101553,"org.eclipse.wst.common.project.facet.core",1363944791279
+started,bundle,org.eclipse.wst.sse.core,1.1.602.v201112071516,"org.eclipse.wst.sse.core",1363944791279
+started,bundle,org.eclipse.wst.validation,1.2.303.v201202090300,"org.eclipse.wst.validation",1363944791279
+started,bundle,org.eclipse.wst.web,1.1.501.v201201190400,"org.eclipse.wst.web",1363944791279
+started,bundle,org.eclipse.wst.xml.core,1.1.602.v201201091944,"org.eclipse.wst.xml.core",1363944791279
+started,bundle,com.android.ide.eclipse.adt,21.1.0.v201302060044-569685,"com.android.ide.eclipse.adt",1363944791279
+started,bundle,com.android.ide.eclipse.base,21.1.0.v201302060044-569685,"com.android.ide.eclipse.base",1363944791279
+started,bundle,org.eclipse.cdt.codan.checkers,1.0.1.201202111925,"org.eclipse.cdt.codan.checkers",1363944791279
+started,bundle,org.eclipse.cdt.codan.core,2.0.0.201202111925,"org.eclipse.cdt.codan.core",1363944791279
+started,bundle,org.eclipse.cdt.codan.core.cxx,1.0.0.201202111925,"org.eclipse.cdt.codan.core.cxx",1363944791279
+started,bundle,org.eclipse.cdt.codan.ui.cxx,2.0.0.201202111925,"org.eclipse.cdt.codan.ui.cxx",1363944791279
+started,bundle,org.eclipse.cdt.core,5.3.2.201202111925,"org.eclipse.cdt.core",1363944791279
+started,bundle,org.eclipse.cdt.dsf,2.2.0.201202111925,"org.eclipse.cdt.dsf",1363944791279
+started,bundle,org.eclipse.cdt.dsf.gdb,4.0.2.201202111925,"org.eclipse.cdt.dsf.gdb",1363944791279
+started,bundle,org.eclipse.cdt.dsf.gdb.ui,2.2.1.201202111925,"org.eclipse.cdt.dsf.gdb.ui",1363944791295
+started,bundle,org.eclipse.cdt.make.core,7.1.2.201202111925,"org.eclipse.cdt.make.core",1363944791295
+started,bundle,org.eclipse.cdt.make.ui,7.1.2.201202111925,"org.eclipse.cdt.make.ui",1363944791295
+started,bundle,org.eclipse.cdt.managedbuilder.core,8.0.2.201202111925,"org.eclipse.cdt.managedbuilder.core",1363944791295
+started,bundle,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui",1363944791295
+os,sysinfo,,,"win32",1363944791295
+arch,sysinfo,,,"x86",1363944791295
+ws,sysinfo,,,"win32",1363944791295
+locale,sysinfo,,,"en_US",1363944791295
+processors,sysinfo,,,"4",1363944791295
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1363944791295
+java.runtime.version,sysinfo,,,"1.6.0_12-b04",1363944791295
+java.specification.name,sysinfo,,,"Java Platform API Specification",1363944791295
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1363944791295
+java.specification.version,sysinfo,,,"1.6",1363944791295
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1363944791295
+java.version,sysinfo,,,"1.6.0_12",1363944791295
+java.vm.info,sysinfo,,,"mixed mode",1363944791295
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1363944791295
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1363944791295
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1363944791295
+java.vm.specification.version,sysinfo,,,"1.0",1363944791295
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1363944791295
+java.vm.version,sysinfo,,,"11.2-b01",1363944791295
+started,bundle,org.eclipse.wst.common.uriresolver,1.1.401.v201004280700,"org.eclipse.wst.common.uriresolver",1363944791529
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1363944792123
+error,log,,,"Failed to load properties file for project 'mak-in-droid'",1363944792685
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1363944796435
+started,bundle,org.eclipse.wst.sse.ui,1.3.2.v201201041522,"org.eclipse.wst.sse.ui",1363944797342
+started,bundle,org.eclipse.wst.xml.ui,1.1.202.v201112071516,"org.eclipse.wst.xml.ui",1363944797342
+started,bundle,org.eclipse.wst.xsl.core,1.1.100.v201102270516,"org.eclipse.wst.xsl.core",1363944797998
+started,bundle,org.eclipse.wst.xsl.exslt.core,1.0.0.v201005240426,"org.eclipse.wst.xsl.exslt.core",1363944797998
+started,bundle,org.eclipse.wst.dtd.ui,1.0.600.v201103171359,"org.eclipse.wst.dtd.ui",1363944798357
+started,bundle,org.eclipse.wst.xsl.ui,1.1.200.v201103082057,"org.eclipse.wst.xsl.ui",1363944798404
+opened,editor,com.android.ide.eclipse.adt,21.1.0.v201302060044-569685,"com.android.ide.eclipse.editors.CommonXmlEditor",1363944798498
+activated,editor,com.android.ide.eclipse.adt,21.1.0.v201302060044-569685,"com.android.ide.eclipse.editors.CommonXmlEditor",1363944798623
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1363944802326
+started,bundle,org.eclipse.jst.ws.jaxws.dom.integration,1.0.101.v201201031437,"org.eclipse.jst.ws.jaxws.dom.integration",1363944802326
+started,bundle,org.eclipse.jst.ws.jaxws.dom.ui,1.0.0.v201004171919,"org.eclipse.jst.ws.jaxws.dom.ui",1363944802342
+activated,editor,com.android.ide.eclipse.adt,21.1.0.v201302060044-569685,"com.android.ide.eclipse.editors.CommonXmlEditor",1363944809935
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1363944811623
+activated,editor,com.android.ide.eclipse.adt,21.1.0.v201302060044-569685,"com.android.ide.eclipse.editors.CommonXmlEditor",1363944811810
+started,bundle,org.eclipse.jst.jsp.ui,1.1.602.v201112071516,"org.eclipse.jst.jsp.ui",1363944838904
+started,bundle,org.eclipse.jst.jsp.core,1.2.402.v201112071853,"org.eclipse.jst.jsp.core",1363944838920
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1363944857763
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1363944884794
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1363944888825
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1363944890216
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1363944891466
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1363944892247
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1363944894029
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1363944894888
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1363944896263
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1363944898185
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1363944899404
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1363944904857
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1363944913185
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1363944950497
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1363944957184
+started,bundle,org.eclipse.pde.launching,3.6.0.v20110506,"org.eclipse.pde.launching",1363944970294
+started,bundle,org.eclipse.ui.views.log,1.0.200.v20110404,"org.eclipse.ui.views.log",1363944970309
+started,bundle,org.eclipse.pde.ui,3.6.100.v20120103_r372,"org.eclipse.pde.ui",1363944970325
+executed,command,,,"AUTOGEN:::org.eclipse.jdt.internal.ui.CompilationUnitEditor.ruler.actions/org.eclipse.jdt.internal.ui.javaeditor.JavaSelectRulerAction",1363944970825
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.saveAll",1363944990544
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1363944994981
+started,bundle,org.eclipse.jdt.junit.core,3.7.0.v20110928-1453,"org.eclipse.jdt.junit.core",1363944995622
+started,bundle,org.eclipse.cdt.debug.core,7.1.0.201202111925,"org.eclipse.cdt.debug.core",1363944995653
+started,bundle,org.eclipse.cdt.debug.ui,7.1.2.201202111925,"org.eclipse.cdt.debug.ui",1363944995653
+started,bundle,org.eclipse.wst.server.core,1.1.304.v20120208_1420,"org.eclipse.wst.server.core",1363944995669
+started,bundle,org.eclipse.wst.server.ui,1.3.0.v20120210_1439,"org.eclipse.wst.server.ui",1363944995684
+started,bundle,com.android.ide.eclipse.ndk,21.1.0.v201302060044-569685,"com.android.ide.eclipse.ndk",1363944995715
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1363945001903
+started,bundle,org.eclipse.wst.jsdt.manipulation,1.0.300.v201104272153,"org.eclipse.wst.jsdt.manipulation",1363945003950
+started,bundle,org.eclipse.wst.jsdt.core,1.1.102.v201111090634,"org.eclipse.wst.jsdt.core",1363945004028
+started,bundle,org.eclipse.wst.jsdt.ui,1.1.102.v201201131900,"org.eclipse.wst.jsdt.ui",1363945004059
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1363945004184
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1363945004184
+activated,editor,com.android.ide.eclipse.adt,21.1.0.v201302060044-569685,"com.android.ide.eclipse.editors.CommonXmlEditor",1363945005168
+error,log,,,"main.xml: Failed to convert @drawable/andro into a drawable",1363945006684
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1363945009106
+activated,editor,com.android.ide.eclipse.adt,21.1.0.v201302060044-569685,"com.android.ide.eclipse.editors.CommonXmlEditor",1363945015590
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1363945022059
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.saveAll",1363945026700
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1363945028934
+started,bundle,com.android.ide.eclipse.ddms,21.1.0.v201302060044-569685,"com.android.ide.eclipse.ddms",1363945030528
+started,bundle,com.android.ide.eclipse.traceview,21.1.0.v201302060044-569685,"com.android.ide.eclipse.traceview",1363945030559
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1363945033653
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1363945066762
+error,log,,,"Unable to read E:\\mak1\\AndroidManifest.xml: org.eclipse.core.internal.resources.ResourceException: File not found: E:\\mak1\\AndroidManifest.xml.",1363945071105
+error,log,,,"An internal error occurred during: ""Compute launch button tooltip"".",1363945071105
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1363945071121
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1363945074293
+started,bundle,org.eclipse.wst.ws.service.policy.ui,1.0.300.v201108240515,"org.eclipse.wst.ws.service.policy.ui",1363945081464
+started,bundle,org.eclipse.wst.ws.service.policy,1.0.303.v201009221810,"org.eclipse.wst.ws.service.policy",1363945081464
+started,bundle,org.eclipse.wst.command.env,1.0.409.v201004211805,"org.eclipse.wst.command.env",1363945081464
+started,bundle,org.eclipse.wst.ws,1.1.203.v201004211805,"org.eclipse.wst.ws",1363945081464
+started,bundle,org.eclipse.compare,3.5.202.R37x_v20111109-0800,"org.eclipse.compare",1363945081574
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1363945084011
+error,log,,,"Could not write file: E:\\mak1.",1363945089792
+error,log,,,"Failed to load properties file for project 'mak-in-droid'",1363945090230
+error,log,,,"Unable to read E:\\mak1\\AndroidManifest.xml: org.eclipse.core.internal.resources.ResourceException: File not found: E:\\mak1\\AndroidManifest.xml.",1363945090230
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1363945090245
+error,log,,,"Unable to read E:\\mak1\\AndroidManifest.xml: org.eclipse.core.internal.resources.ResourceException: File not found: E:\\mak1\\AndroidManifest.xml.",1363945090245
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1363945099339
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.properties",1363945099355
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1363945101495
+error,log,,,"Unable to read E:\\mak1\\AndroidManifest.xml: org.eclipse.core.internal.resources.ResourceException: File not found: E:\\mak1\\AndroidManifest.xml.",1363945102042
+error,log,,,"An internal error occurred during: ""Compute launch button tooltip"".",1363945102042
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1363945102042
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1363945106401
+opened,view,com.android.ide.eclipse.ddms,21.1.0.v201302060044-569685,"com.android.ide.eclipse.ddms.views.LogCatView",1363945108979
+activated,view,com.android.ide.eclipse.ddms,21.1.0.v201302060044-569685,"com.android.ide.eclipse.ddms.views.LogCatView",1363945108995
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1363945117620
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1363945120541
+error,log,,,"Unable to read E:\\mak1\\AndroidManifest.xml: org.eclipse.core.internal.resources.ResourceException: File not found: E:\\mak1\\AndroidManifest.xml.",1363945121385
+error,log,,,"An internal error occurred during: ""Compute launch button tooltip"".",1363945121385
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1363945121385
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1363945126869
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1363945149963
+error,log,,,"Failed to load properties file for project 'mak-in-droid'",1363945154728
+error,log,,,"Unable to read E:\\mak1\\AndroidManifest.xml: org.eclipse.core.internal.resources.ResourceException: File not found: E:\\mak1\\AndroidManifest.xml.",1363945164165
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1363945164165
+error,log,,,"Unable to read E:\\mak1\\AndroidManifest.xml: org.eclipse.core.internal.resources.ResourceException: File not found: E:\\mak1\\AndroidManifest.xml.",1363945164165
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1363945183368
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.properties",1363945183384
+started,bundle,org.eclipse.wst.xsl.debug.ui,1.0.200.v201101281837,"org.eclipse.wst.xsl.debug.ui",1363945184680
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1363945185899
+error,log,,,"Unable to read E:\\mak1\\AndroidManifest.xml: org.eclipse.core.internal.resources.ResourceException: File not found: E:\\mak1\\AndroidManifest.xml.",1363945186509
+error,log,,,"An internal error occurred during: ""Compute launch button tooltip"".",1363945186509
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1363945186524
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1363945192149
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1363945197805
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1363945216008
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1363945265975
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.import",1363945265991
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1363945274741
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1363945281709
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1363945283756
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1363945291803
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1363945298834
+activated,editor,com.android.ide.eclipse.adt,21.1.0.v201302060044-569685,"com.android.ide.eclipse.editors.CommonXmlEditor",1363945298865
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1363945304599
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1363945309334
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1363945311412
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1363945323552
+closed,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1363945335145
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1363945336067
+closed,editor,com.android.ide.eclipse.adt,21.1.0.v201302060044-569685,"com.android.ide.eclipse.editors.CommonXmlEditor",1363945336067
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1363945341051
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1363945421330
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.import",1363945421346
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1363945429580
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1363945438752
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1363945447564
+started,bundle,org.eclipse.ant.ui,3.5.101.v20120110-1739,"org.eclipse.ant.ui",1363945461595
+started,bundle,org.eclipse.wst.dtd.core,1.1.501.v201107252021,"org.eclipse.wst.dtd.core",1363945461813
+started,bundle,org.eclipse.wst.internet.cache,1.0.400.v201004280700,"org.eclipse.wst.internet.cache",1363945461845
+error,log,,,"Failed to load properties file for project 'makindroid'",1363945462282
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1363945462329
+error,log,,,"Could not write file: E:\\mak1.",1363945462345
+opened,editor,com.android.ide.eclipse.adt,21.1.0.v201302060044-569685,"com.android.ide.eclipse.editors.CommonXmlEditor",1363945462516
+activated,editor,com.android.ide.eclipse.adt,21.1.0.v201302060044-569685,"com.android.ide.eclipse.editors.CommonXmlEditor",1363945462548
+started,bundle,org.eclipse.jdt.apt.pluggable.core,1.0.400.v20110305-1450,"org.eclipse.jdt.apt.pluggable.core",1363945462548
+error,log,,,"Core exception while retrieving the content description",1363945462579
+error,log,,,"Core exception while retrieving the content description",1363945462579
+error,log,,,"Core exception while retrieving the content description",1363945462579
+error,log,,,"Core exception while retrieving the content description",1363945462579
+error,log,,,"Core exception while retrieving the content description",1363945462579
+error,log,,,"Core exception while retrieving the content description",1363945462579
+error,log,,,"Core exception while retrieving the content description",1363945462595
+error,log,,,"Core exception while retrieving the content description",1363945462595
+error,log,,,"Core exception while retrieving the content description",1363945462595
+error,log,,,"Core exception while retrieving the content description",1363945462595
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1363945462610
+error,log,,,"Core exception while retrieving the content description",1363945463579
+error,log,,,"Core exception while retrieving the content description",1363945463579
+error,log,,,"Core exception while retrieving the content description",1363945463579

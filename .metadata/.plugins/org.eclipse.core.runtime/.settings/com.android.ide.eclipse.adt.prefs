@@ -1,0 +1,5 @@
+com.android.ide.eclipse.adt.fixLegacyEditors=1
+com.android.ide.eclipse.adt.sdk=C\:\\eclipse-indigo\\android-sdks 2.1 4.1 2.3 arc droid extension
+com.android.ide.eclipse.adt.xmlEditor=true
+design.structure.flyout.width=160
+eclipse.preferences.version=1
